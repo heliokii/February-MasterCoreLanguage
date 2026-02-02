@@ -14,7 +14,7 @@ My goal is to become fluent enough to confidently work with complex codebases an
 
 ## 🔍 Deep Dive: My Learning Path
 
-### 🐍 Python (Advanced Track)
+### Python (Advanced Track)
 Since I’m already comfortable with Python, I’m diving deeper into advanced concepts:
 - Decorators
 - Generators and iterators
