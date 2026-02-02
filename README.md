@@ -38,7 +38,7 @@ Since I’m already comfortable with Python, I’m diving deeper into advanced c
 
 ---
 
-## 🛠 Practice & Implementation
+## Practice & Implementation
 
 ### 🔄 Refactoring My January Project
 I am refactoring my January project to:
