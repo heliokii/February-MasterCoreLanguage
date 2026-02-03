@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!-- 
+    DOCTYPE tells the browser which version of HTML we're using.
+    Modern standard (HTML5) is simply: <!DOCTYPE html>
+-->
+
+<html lang="en">
+<!-- 
+    <html> is the root element of the page
+    lang="en" helps screen readers and search engines know the language
+-->
+
+<head>
+    <!-- 
+        <head> contains meta-information about the document 
+        (things that are NOT displayed on the page)
+    -->
+
+    <meta charset="UTF-8">
+    <!-- 
+        Tells browser to use UTF-8 encoding (supports almost all characters: emojis, accents, etc.)
+    -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 
+        Very important for mobile devices!
+        Makes the page scale correctly on phones/tablets
+    -->
+
+    <title>My First HTML Page – Learning Basics</title>
+    <!-- 
+        This text appears in the browser tab / bookmark title
+    -->
+
+    <style>
+        /* Internal CSS – styles only this page */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2, h3 { color: #2c3e50; }
+        code { background: #f0f0f0; padding: 2px 5px; border-radius: 4px; }
+        pre { 
+            background: #272822; 
+            color: #f8f8f2; 
+            padding: 15px; 
+            border-radius: 8px; 
+            overflow-x: auto;
+        }
+
+        .highlight { background-color: #fffacd; padding: 2px 6px; }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======================== -->
+    <!--       MAIN CONTENT       -->
+    <!-- ======================== -->
+
+    <h1>HTML Basics – All-in-One Learning Page</h1>
+
+    <p>This page shows the most important HTML building blocks you should know first.</p>
+
+    <!-- Headings (very important for structure and SEO) -->
+    <h2>Headings (h1 → h6)</h2>
+    <h1>This is h1 – biggest, most important</h1>
+    <h2>This is h2 – usually page sections</h2>
+    <h3>h3 – subsections</h3>
+    <h4>h4 – smaller</h4>
+    <h5>h5</h5>
+    <h6>h6 – smallest heading</h6>
+
+    <!-- Paragraphs -->
+    <h2>Paragraphs & Text Formatting</h2>
+    <p>This is a normal paragraph. <strong>Bold text</strong> and <em>italic text</em> are very common.</p>
+    <p>You can also use <mark>marked text</mark>, <small>small text</small>, <del>deleted text</del>, and <ins>inserted text</ins>.</p>
+    <p>Superscript: H<sub>2</sub>O   –   Subscript: x² + y² = r²</p>
+
+    <!-- Line breaks & horizontal rule -->
+    <p>First line<br>Second line (using &lt;br&gt;)</p>
+    <hr>
+    <!-- <hr> = horizontal rule (line) -->
+
+    <!-- Lists -->
+    <h2>Lists – Ordered & Unordered</h2>
+    
+    <h3>Unordered list (bullets)</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Learn them in this order (usually)</li>
+    </ul>
+
+    <h3>Ordered list (numbers)</h3>
+    <ol>
+        <li>Open text editor</li>
+        <li>Write HTML</li>
+        <li>Save as .html</li>
+        <li>Open in browser</li>
+    </ol>
+
+    <!-- Links -->
+    <h2>Links (very important!)</h2>
+    <p>Go to <a href="https://www.w3schools.com">W3Schools</a></p>
+    <p>Open in new tab: <a href="https://developer.mozilla.org" target="_blank">MDN Web Docs</a></p>
+    <p>Link to email: <a href="mailto:hello@example.com">Send email</a></p>
+
+    <!-- Images -->
+    <h2>Images</h2>
+    <p>Always use <code>alt</code> text – important for accessibility and SEO</p>
+    
+    <img src="https://via.placeholder.com/300x180?text=HTML+Image" 
+         alt="Example placeholder image – 300×180 pixels"
+         width="300">
+
+    <!-- Buttons -->
+    <h2>Buttons (clickable)</h2>
+    <button>Click me!</button>
+    <br><br>
+    <a href="#" class="button-link">I'm a link styled like a button</a>
+
+    <!-- Forms – very basic version -->
+    <h2>Basic Form Example</h2>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="John"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to terms</label><br><br>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <!-- Semantic HTML – modern & important -->
+    <h2>Semantic / Meaningful Tags (HTML5)</h2>
+    <header>
+        <h1>Header area (usually logo + navigation)</h1>
+    </header>
+
+    <main>
+        <article>
+            <h2>Main article content goes here</h2>
+            <p>This is the primary content of the page.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>Footer – © 2026 Your Name • Made while learning HTML</p>
+    </footer>
+
+</body>
+</html>
