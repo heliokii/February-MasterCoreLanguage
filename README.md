@@ -1,4 +1,4 @@
-# 📘 February: Master a Core Language
+# February: Master a Core Language
 
 ##  Repository Description
 A personal February challenge focused on mastering a core programming language, improving code quality, and practicing real-world debugging and optimization.
