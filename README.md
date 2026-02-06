@@ -55,7 +55,7 @@ I am contributing small fixes to open-source repositories to:
 
 ---
 
-## 🏁 End Goal
+## End Goal
 By the end of February, I aim to:
 - Debug code efficiently and confidently
 - Optimize code for clarity and performance
