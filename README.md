@@ -26,7 +26,7 @@ Since I’m already comfortable with Python, I’m diving deeper into advanced c
 
 ---
 
-## 📖 Reading Assignment
+## Reading Assignment
 **Book:** *Clean Code* by Robert C. Martin  
 
 **Key takeaways I’m focusing on:**
@@ -40,14 +40,14 @@ Since I’m already comfortable with Python, I’m diving deeper into advanced c
 
 ## Practice & Implementation
 
-### 🔄 Refactoring My January Project
+### Refactoring My January Project
 I am refactoring my January project to:
 - Improve structure and readability
 - Simplify logic and remove redundancy
 - Apply clean code principles
 - Enhance maintainability and performance
 
-### 🌍 Open-Source Contributions
+### Open-Source Contributions
 I am contributing small fixes to open-source repositories to:
 - Practice Git fundamentals (clone, branch, commit, push)
 - Learn how pull requests and reviews work
