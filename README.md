@@ -5,14 +5,14 @@ A personal February challenge focused on mastering a core programming language, 
 
 ---
 
-## 🎯 Monthly Focus
+##  Monthly Focus
 This month, I am focusing on **depth over breadth**. Instead of jumping between tools or languages, I’m committing to mastering **one core programming language** and sharpening how I write, read, debug, and optimize code.
 
 My goal is to become fluent enough to confidently work with complex codebases and improve them effectively.
 
 ---
 
-## 🔍 Deep Dive: My Learning Path
+##  Deep Dive: My Learning Path
 
 ### Python (Advanced Track)
 Since I’m already comfortable with Python, I’m diving deeper into advanced concepts:
