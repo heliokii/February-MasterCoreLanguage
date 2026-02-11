@@ -10,21 +10,18 @@ class Program {
         
         // Write your code below
         if (age < 12) {
-            Console.WriteLine("Sorry, you're too young");
+            status = "Sorry, you're too young";
+        } else if (height <= 150) { 
+            status = "Sorry, you're not tall enough";
         } else {
-            if (height < 150) {
-                Console.WriteLine("Sorry, you're not tall enough");
-            } else {
-                // At this point: age >= 12 AND height >= 150
-                if (age >= 18) {
-                    Console.WriteLine("You can ride by yourself!");
-                    status = "adult";
-                } else if (hasAdult == true) {
-                    Console.WriteLine("You can ride with adult supervision!");
-                    status = "supervised";
+            if (age < 15) {
+                if (hasAdult) {
+                    status = "You can ride with adult supervision!";
                 } else {
-                    Console.WriteLine("Sorry, you need an adult with you!");
+                    status = "Sorry, you need an adult with you";
                 }
+            } else {
+                status = "You can ride by yourself!";
             }
         }
         
