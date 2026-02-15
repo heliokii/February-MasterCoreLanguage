@@ -1,0 +1,13 @@
+using System;
+
+public class Program {
+    public static void Main(string[] args) {
+        // Write your code below
+        int num = int.Parse(Console.ReadLine());
+        if (num == 1){
+            Console.WriteLine("T");
+        } else {
+            Console.WriteLine("F");
+        }
+    }
+}
