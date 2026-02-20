@@ -1,0 +1,21 @@
+using System;
+
+public class Program {
+    public static bool is_valid(string username, string password) {
+        // Write your code below
+        if (username == "admin"){
+            return true;
+        } else if (username == "user" && password == "qweasd"){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+    public static void Main(string[] args) {
+        string user = Console.ReadLine();
+        string pass = Console.ReadLine();
+        bool res = is_valid(user, pass);
+        Console.WriteLine(res);
+    }
+}
